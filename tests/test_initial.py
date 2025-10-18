@@ -1,4 +1,3 @@
-import pytest
 from fsm.python_test import PythonTest
 
 
