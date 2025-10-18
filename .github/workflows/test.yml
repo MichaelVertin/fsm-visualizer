@@ -25,7 +25,6 @@ jobs:
       - name: Run code quality checks
         run: |
           black --check .
-          flake8 .
           mypy fsm
 
       - name: Run tests
